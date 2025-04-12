@@ -1,6 +1,6 @@
 {
-  "name": "srodrigo28_project",
-  "version": "1.0.1",
+  "name": "formart_srodrigo28",
+  "version": "2.0.2",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -9,11 +9,16 @@
   },
   "keywords": [
     "treina-dev",
-    "sebastiao"
+    "format",
+    "format text",
+    "format data"
   ],
+  "homepage": "https://github.com/srodrigo28/node-publicar#readme",
   "author": "Sebastião Rodrigo Nascimento Sousa",
   "license": "ISC",
   "dependencies": {
+    "formart_srodrigo28": "file:",
+    "formsrodrigo28_project": "file:",
     "srodrigo28_project": "file:"
   },
   "repository": {
