@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar senha</title>
+</head>
+<body>
+    <h1>vamos chegar sua chage</h1>
+    <p>Chave gerada: <span></span> </p>
+    <button onclick="gerar()">Gerar Nova</button>
+
+    <script>
+        
+         function gerar(){
+            let chaveHTML = document.querySelector('span');
+            let chave = crypto.randomUUID()
+            chaveHTML.textContent = chave
+         }
+    </script>
+    
+</body>
+</html>
